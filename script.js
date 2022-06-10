@@ -9,12 +9,12 @@
 //   }
 // });
 
-const trueCol1Line1 = "a";
+const trueCol1Line1 = "b";
 const cell = document.getElementById("col1line1");
 const submit = document.getElementById("submit");
 
 const trueValue = () => {
-  if (cell.nodeValue === trueCol1Line1) {
+  if (cell.value === trueCol1Line1) {
     console.log("valores iguais");
   } else {
     console.log("tente de novo");
