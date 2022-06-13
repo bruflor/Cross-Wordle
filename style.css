@@ -1,0 +1,58 @@
+.inputFrame {
+  width: 48px;
+  height: 48px;
+}
+
+.hideItem {
+  display: none;
+}
+
+.col1line1 {
+  grid-area: inputsL1;
+  background: red;
+}
+.col1line2 {
+  grid-area: inputsL2;
+  background: blue;
+}
+
+.col1line3 {
+  grid-area: inputsL3;
+}
+.col1line4 {
+  grid-area: inputsL4;
+}
+.col1line5 {
+  grid-area: inputsL5;
+}
+
+.col1line21 {
+  grid-area: inputsL21;
+  background: red;
+}
+.col1line22 {
+  grid-area: inputsL22;
+  background: blue;
+}
+
+.col1line23 {
+  grid-area: inputsL23;
+}
+.col1line24 {
+  grid-area: inputsL24;
+}
+.col1line25 {
+  grid-area: inputsL25;
+}
+
+.mainContainer {
+  width: fit-content;
+  background: #ccc;
+  display: grid;
+  grid-template-areas:
+    "inputsL1 inputsL2 inputsL3 inputsL4 inputsL5"
+    "inputsL21 inputsL22 inputsL23 inputsL24 inputsL25";
+
+  padding: 16px;
+  grid-gap: 10px;
+}
