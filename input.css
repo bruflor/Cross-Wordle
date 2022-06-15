@@ -1,0 +1,14 @@
+.charInput {
+  width: 32px;
+  height: 32px;
+  background: none;
+  /* border: 2px solid #333; */
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  font-variant-caps: petite-caps;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 0 0 1px #aaa;
+}

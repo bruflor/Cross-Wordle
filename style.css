@@ -1,58 +1,26 @@
-.inputFrame {
-  width: 48px;
-  height: 48px;
-}
+@import "./input.css";
 
-.hideItem {
-  display: none;
-}
-
-.col1line1 {
-  grid-area: inputsL1;
-  background: red;
-}
-.col1line2 {
-  grid-area: inputsL2;
-  background: blue;
-}
-
-.col1line3 {
-  grid-area: inputsL3;
-}
-.col1line4 {
-  grid-area: inputsL4;
-}
-.col1line5 {
-  grid-area: inputsL5;
-}
-
-.col1line21 {
-  grid-area: inputsL21;
-  background: red;
-}
-.col1line22 {
-  grid-area: inputsL22;
-  background: blue;
-}
-
-.col1line23 {
-  grid-area: inputsL23;
-}
-.col1line24 {
-  grid-area: inputsL24;
-}
-.col1line25 {
-  grid-area: inputsL25;
-}
-
-.mainContainer {
-  width: fit-content;
+* {
   background: #ccc;
-  display: grid;
-  grid-template-areas:
-    "inputsL1 inputsL2 inputsL3 inputsL4 inputsL5"
-    "inputsL21 inputsL22 inputsL23 inputsL24 inputsL25";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crosswordle_container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #999;
+  position: relative;
   padding: 16px;
-  grid-gap: 10px;
 }
