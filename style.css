@@ -13,14 +13,35 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .crosswordle_container {
-  width: 500px;
-  height: 500px;
+  width: 640px;
+  height: 640px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 8px #999;
   position: relative;
-  padding: 16px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  line-height: 1.5rem;
+  margin: 8px;
+  background: rgb(69, 67, 218);
+  border-radius: 8px;
+  box-shadow: 0 0 8px #999;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: rgb(50, 48, 185);
+  transition: all 0.5s;
+  cursor: pointer;
+  transform: translate(0px, 2px);
 }
