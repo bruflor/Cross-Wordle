@@ -25,7 +25,7 @@ main {
   position: relative;
 }
 
-button {
+.checkButton {
   width: 200px;
   height: 40px;
   line-height: 1.5rem;
@@ -39,7 +39,7 @@ button {
   transition: all 0.5s;
 }
 
-button:hover {
+.checkButton:hover {
   background: rgb(50, 48, 185);
   transition: all 0.5s;
   cursor: pointer;

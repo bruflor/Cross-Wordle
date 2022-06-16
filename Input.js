@@ -119,7 +119,8 @@ const createInput = (
   indexPosition,
   initialTop,
   initialLeft,
-  isVisible
+  isVisible,
+  hiddenIndex
 ) => {
   const container = document.getElementById("crosswordle_container");
 
@@ -188,3 +189,13 @@ const createWordInputGroup = ({
 words.forEach((word) => {
   createWordInputGroup(word);
 });
+
+//trigger de botão
+const trueValue = () => {
+  if (1 === 1) {
+    console.log("banana");
+  }
+};
+
+const submit = document.getElementById("checkButton");
+submit.addEventListener("click", trueValue);
