@@ -12,3 +12,7 @@
   font-weight: bold;
   box-shadow: 0 0 1px #aaa;
 }
+
+.hiddenBorder {
+  border: none;
+}
